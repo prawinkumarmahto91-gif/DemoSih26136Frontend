@@ -19,7 +19,7 @@ import type {
   Invoice
 } from '../types';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://demo-sih26136.onrender.com';
+const API_BASE = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 
 class ApiClient {
   private jwtToken: string | null = null;
